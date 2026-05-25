@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — MyStudyDeck</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e5e5; line-height: 1.7; }
+    .container { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+    a { color: #818cf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .meta { color: #737373; font-size: 0.9rem; margin-bottom: 32px; }
+    .tldr { background: #1a1a2e; border-left: 3px solid #818cf8; padding: 16px 20px; border-radius: 8px; margin-bottom: 32px; font-size: 1rem; }
+    h2 { font-size: 1.25rem; font-weight: 600; color: #fff; margin-top: 32px; margin-bottom: 12px; }
+    h3 { font-size: 1.05rem; font-weight: 600; color: #d4d4d4; margin-top: 24px; margin-bottom: 8px; }
+    p { margin-bottom: 12px; color: #d4d4d4; }
+    ul { margin: 8px 0 12px 24px; color: #d4d4d4; }
+    li { margin-bottom: 6px; }
+    strong { color: #e5e5e5; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 0.9rem; }
+    .contact { margin-top: 40px; padding-top: 24px; border-top: 1px solid #262626; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">&larr; MyStudyDeck</a>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: May 21, 2026 &middot; Last updated: May 21, 2026</p>
+
+    <div class="tldr">
+      MyStudyDeck keeps everything on your device. We never see your photos, your flashcards, or what you're studying. We collect zero personal information.
+    </div>
+
+    <h2>What data stays on your device</h2>
+    <p>All of it. MyStudyDeck is an offline-first app with no cloud backend, no user accounts, and no server-side storage. Specifically:</p>
+    <ul>
+      <li><strong>Photos you capture</strong> are processed on-device using Apple's VisionKit OCR. They are never uploaded anywhere.</li>
+      <li><strong>Flashcard content</strong> (text, images, translations) is stored in a local SQLite database on your phone. It never leaves your device.</li>
+      <li><strong>Translation</strong> uses Apple's built-in Translation framework, which runs on-device. No text is sent to external translation services.</li>
+      <li><strong>OCR text recognition</strong> uses Apple's VisionKit, which runs entirely on-device.</li>
+      <li><strong>Language detection</strong> uses Apple's NLLanguageRecognizer, which runs on-device.</li>
+    </ul>
+    <p>We have no ability to access, read, or recover your flashcard data.</p>
+
+    <h2>What we collect</h2>
+
+    <h3>Anonymous usage analytics — TelemetryDeck</h3>
+    <p>We use <a href="https://telemetrydeck.com/privacy">TelemetryDeck</a> to understand how the app is used in aggregate. TelemetryDeck is a privacy-first analytics service that collects <strong>no personally identifiable information (PII)</strong>.</p>
+    <p>What TelemetryDeck records:</p>
+    <ul>
+      <li>App open events</li>
+      <li>Feature usage counts (e.g., how many times the capture flow is used)</li>
+      <li>App version, device model, and OS version</li>
+      <li>Session duration</li>
+    </ul>
+    <p>What TelemetryDeck does <strong>not</strong> record:</p>
+    <ul>
+      <li>Your name, email, or any account information (there are no accounts)</li>
+      <li>Your flashcard content, photos, or study material</li>
+      <li>Your location</li>
+      <li>Any unique device identifier that could identify you personally</li>
+    </ul>
+
+    <h3>Crash reporting — Sentry</h3>
+    <p>We use <a href="https://sentry.io/privacy">Sentry</a> to detect and fix crashes. When the app crashes, Sentry may collect:</p>
+    <ul>
+      <li>Device model and OS version</li>
+      <li>App version and build number</li>
+      <li>Stack trace (technical error information)</li>
+      <li>Available memory and disk space at the time of crash</li>
+    </ul>
+    <p>Sentry does <strong>not</strong> collect your flashcard content, photos, personal information, or location.</p>
+
+    <h3>Purchase validation — RevenueCat</h3>
+    <p>When you make a purchase, we use <a href="https://www.revenuecat.com/privacy">RevenueCat</a> to validate your receipt with Apple. RevenueCat processes:</p>
+    <ul>
+      <li>Your Apple purchase receipt (provided by Apple's StoreKit)</li>
+      <li>A random anonymous app user ID (not linked to your identity)</li>
+    </ul>
+    <p>RevenueCat does <strong>not</strong> receive your name, email, Apple ID, or payment details. Apple handles all payment processing directly.</p>
+
+    <h2>Third-party advertising</h2>
+    <p>There is none. MyStudyDeck contains no ads and no ad-tracking SDKs. We do not sell, share, or trade your data with any third party for advertising purposes.</p>
+
+    <h2>Children's privacy (COPPA)</h2>
+    <p>MyStudyDeck is not directed at children under 13. We do not knowingly collect any information from children. Since we collect no personal information from any user, there is no child-specific data to manage.</p>
+
+    <h2>Data retention</h2>
+    <p>Since all user data is stored locally on your device, you control it entirely. Deleting the app removes all flashcard data, photos, and local databases. We retain no server-side copy because none exists.</p>
+    <p>Anonymous analytics data retained by TelemetryDeck and crash data retained by Sentry follow their respective retention policies and cannot be linked to you.</p>
+
+    <h2>Your rights</h2>
+    <p>Because we collect no personal information, there is no personal data for us to provide, correct, or delete on our end. Your flashcard data is entirely under your control on your device.</p>
+    <p>If you are located in the EU, California, or another jurisdiction with data protection laws, the anonymous analytics data we collect through TelemetryDeck is not classified as personal data under GDPR, CCPA, or equivalent regulations because it cannot identify you.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we update this policy, we will post the revised version at this URL and update the "Last updated" date above. Material changes will be noted in the app's What's New section.</p>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Questions or concerns about privacy? Reach us at <a href="mailto:support@mystudydeck.store">support@mystudydeck.store</a></p>
+    </div>
+  </div>
+</body>
+</html>
